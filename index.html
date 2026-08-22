@@ -1,194 +1,214 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Rohin Jayaram Krishnan, MD MSc — Emergency Medicine physician and Critical Care Medicine fellow at Dartmouth Hitchcock Medical Center.">
   <title>Rohin Jayaram Krishnan, MD MSc</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="wrap nav-wrap">
-      <a class="brand" href="#top">RJK</a>
-      <nav aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#training">Training</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#teaching">Teaching & Leadership</a>
-        <a href="#cv">CV</a>
-      </nav>
-    </div>
-  </header>
+<header class="topbar">
+  <div class="shell nav">
+    <a class="wordmark" href="#home">Rohin Jayaram Krishnan, MD, MSc</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" onclick="document.body.classList.toggle('menu-open')">☰</button>
+    <nav>
+      <a class="active" href="#home">Home</a>
+      <a href="#training">Training</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#presentations">Presentations</a>
+      <a href="#teaching">Teaching &amp; Leadership</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="wrap hero-inner">
-        <p class="eyebrow">Emergency Medicine · Critical Care Medicine</p>
-        <h1>Rohin Jayaram Krishnan, <span>MD MSc</span></h1>
-        <p class="lede">Emergency Medicine physician and Critical Care Medicine fellow at Dartmouth Hitchcock Medical Center, with academic interests in resuscitation, critical care, clinical epidemiology, and evidence-based medicine.</p>
-        <div class="actions">
-          <a class="button primary" href="Rohin_Krishnan_CV.pdf" target="_blank" rel="noopener">View CV</a>
-          <a class="button" href="mailto:rohinkrishnanMD@gmail.com">Email</a>
+<main id="home">
+  <section class="hero">
+    <div class="shell hero-grid">
+      <div class="portrait-wrap">
+        <img src="rohin-krishnan.png" alt="Rohin Jayaram Krishnan" class="portrait">
+      </div>
+      <div class="hero-copy">
+        <h1>Rohin Jayaram Krishnan, MD, MSc</h1>
+        <div class="gold-rule"></div>
+        <p class="specialties">Emergency Medicine <span>|</span> Critical Care Medicine</p>
+        <h2>Critical Care Medicine Fellow</h2>
+        <p class="institution">Dartmouth Hitchcock Medical Center</p>
+        <p class="intro">Emergency Medicine physician and Critical Care Medicine fellow with academic interests in resuscitation, critical care, clinical epidemiology, and evidence-based medicine.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="Rohin_Krishnan_CV.pdf" target="_blank" rel="noopener">▤ &nbsp; View CV</a>
+          <a class="btn btn-outline" href="#publications">▣ &nbsp; Publications</a>
+          <a class="btn btn-outline" href="mailto:rohinkrishnanMD@gmail.com">✉ &nbsp; Email Me</a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="about" class="section">
-      <div class="wrap narrow">
-        <p class="section-label">About</p>
-        <h2>Clinical medicine informed by evidence.</h2>
+  <section id="training" class="milestones">
+    <div class="shell milestone-grid">
+      <a class="milestone" href="https://gme.dartmouth-hitchcock.org/critical-care-internal" target="_blank" rel="noopener">
+        <div class="icon">⌂</div>
+        <div><strong>Dartmouth</strong><span>Critical Care Fellowship</span><small>2026–2028</small></div>
+      </a>
+      <a class="milestone" href="https://medicine.yale.edu/emergencymed/education/residency/" target="_blank" rel="noopener">
+        <div class="icon">♡</div>
+        <div><strong>Yale University</strong><span>Emergency Medicine Residency</span><small>2022–2026</small></div>
+      </a>
+      <a class="milestone" href="https://jabsom.hawaii.edu/" target="_blank" rel="noopener">
+        <div class="icon">◎</div>
+        <div><strong>JABSOM</strong><span>Doctor of Medicine</span><small>2018–2022</small></div>
+      </a>
+      <div class="milestone">
+        <div class="icon">⌁</div>
+        <div><strong>Western University</strong><span>MSc Epidemiology &amp; Biostatistics</span><small>2014–2017</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dark-section about" id="about">
+    <div class="shell two-col">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 class="section-title">About Me</h2>
+        <div class="gold-rule short"></div>
         <p>I trained in Emergency Medicine at Yale and am completing fellowship training in Critical Care Medicine at Dartmouth Hitchcock Medical Center. My academic background includes an MSc in Epidemiology and Biostatistics and research spanning emergency medicine, critical care, perioperative medicine, systematic review, meta-analysis, and outcomes research.</p>
       </div>
-    </section>
-
-    <section id="training" class="section alt">
-      <div class="wrap">
-        <p class="section-label">Training & Education</p>
-        <div class="timeline">
-          <article class="timeline-item">
-            <div class="year">2026–2028</div>
-            <div>
-              <h3><a href="https://gme.dartmouth-hitchcock.org/critical-care-internal" target="_blank" rel="noopener">Critical Care Medicine Fellowship</a></h3>
-              <p>Dartmouth Hitchcock Medical Center · Lebanon, New Hampshire</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="year">2022–2026</div>
-            <div>
-              <h3><a href="https://medicine.yale.edu/emergencymed/education/residency/" target="_blank" rel="noopener">Emergency Medicine Residency</a></h3>
-              <p>Yale University · New Haven, Connecticut</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="year">2018–2022</div>
-            <div>
-              <h3>Doctor of Medicine</h3>
-              <p><a href="https://jabsom.hawaii.edu/" target="_blank" rel="noopener">University of Hawaiʻi, John A. Burns School of Medicine</a> · Honolulu, Hawaiʻi</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="year">2014–2017</div>
-            <div>
-              <h3>Master of Science · Epidemiology & Biostatistics</h3>
-              <p>Western University · London, Ontario</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="year">2010–2014</div>
-            <div>
-              <h3>BSc Honors · Medical Science & Biology</h3>
-              <p>Western University · London, Ontario</p>
-            </div>
-          </article>
-        </div>
+      <div class="contact-card">
+        <a href="mailto:rohinkrishnanMD@gmail.com"><span>✉</span> rohinkrishnanMD@gmail.com</a>
+        <div><span>⌖</span> Lebanon, New Hampshire</div>
+        <a href="https://gme.dartmouth-hitchcock.org/critical-care-internal" target="_blank" rel="noopener"><span>↗</span> Dartmouth Critical Care Fellowship</a>
+        <a href="https://medicine.yale.edu/emergencymed/education/residency/" target="_blank" rel="noopener"><span>↗</span> Yale Emergency Medicine Residency</a>
       </div>
-    </section>
-
-    <section id="research" class="section">
-      <div class="wrap">
-        <p class="section-label">Research</p>
-        <h2>Research experience</h2>
-        <div class="cards">
-          <article class="card">
-            <p class="meta">2019–2022</p>
-            <h3>Syncope Research Group</h3>
-            <p>The Ottawa Hospital Research Institute · Department of Emergency Medicine</p>
-            <p class="small">Supervisor: Dr. Venkatesh Thiruganasambandamoorthy</p>
-          </article>
-          <article class="card">
-            <p class="meta">2017–2022</p>
-            <h3>Center for Medical Evidence, Decision Integrity and Clinical Impact</h3>
-            <p>Western University · Department of Anesthesia and Perioperative Medicine</p>
-            <p class="small">Supervisor: Dr. Janet Martin</p>
-          </article>
-          <article class="card">
-            <p class="meta">2016–2018</p>
-            <h3>Centre for Addiction and Mental Health</h3>
-            <p>Research on alcohol use and health outcomes.</p>
-            <p class="small">Supervisor: Dr. Michael Roerecke</p>
-          </article>
-          <article class="card">
-            <p class="meta">2016–2017</p>
-            <h3>Clinical Research Assistant</h3>
-            <p>Department of Otolaryngology and Head & Neck Surgery · St. Joseph’s Hospital, London, Ontario</p>
-            <p class="small">Supervisor: Dr. Leigh Sowerby</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="publications" class="section alt">
-      <div class="wrap">
-        <div class="section-heading">
-          <div>
-            <p class="section-label">Scholarship</p>
-            <h2>Peer-reviewed publications</h2>
-          </div>
-          <p class="count">14 journal articles</p>
-        </div>
-
-        <ol class="pub-list">
-          <li><a href="https://doi.org/10.1016/j.amjsurg.2023.12.022" target="_blank" rel="noopener">Subtotal vs total cholecystectomy for difficult gallbladders: a systematic review and meta-analysis.</a><br><span>Koo SS, <strong>Krishnan RJ</strong>, et al. <em>Am J Surg.</em> 2024;229:145–150.</span></li>
-          <li><a href="https://doi.org/10.1186/s42836-021-00110-7" target="_blank" rel="noopener">Surgical site infection after wound closure with staples versus sutures in elective knee and hip arthroplasty: a systematic review and meta-analysis.</a><br><span>van de Kuit A, <strong>Krishnan RJ</strong>, et al. <em>Arthroplasty.</em> 2022;4(1):12.</span></li>
-          <li><a href="https://doi.org/10.1503/cmaj.191637" target="_blank" rel="noopener">Benefit of hospital admission for detecting serious adverse events among emergency department patients with syncope: a propensity-score-matched analysis of a multicentre prospective cohort.</a><br><span><strong>Krishnan RJ</strong>, Mukarram M, et al. <em>CMAJ.</em> 2020;192(41):E1198–E1205.</span></li>
-          <li><a href="https://doi.org/10.1097/CORR.0000000000000690" target="_blank" rel="noopener">Is the risk of infection lower with sutures than with staples for skin closure after orthopaedic surgery? A meta-analysis of randomized trials.</a><br><span><strong>Krishnan RJ</strong>, Crawford EJ, et al. <em>Clin Orthop Relat Res.</em> 2019;477(5):922–937.</span></li>
-          <li><a href="https://doi.org/10.1186/s12889-019-6945-4" target="_blank" rel="noopener">Do four or more antenatal care visits increase skilled birth attendant use and institutional delivery in Bangladesh? A propensity-score matched analysis.</a><br><span>Ryan BL, <strong>Krishnan RJ</strong>, et al. <em>BMC Public Health.</em> 2019;19(1):583.</span></li>
-          <li><a href="https://doi.org/10.1001/jamaoto.2018.4515" target="_blank" rel="noopener">Outcomes of cutaneous squamous cell carcinoma in the head and neck region with regional lymph node metastasis: a systematic review and meta-analysis.</a><br><span>Sahovaler A, <strong>Krishnan RJ</strong>, et al. <em>JAMA Otolaryngol Head Neck Surg.</em> 2019;145(4):352–360.</span></li>
-          <li><a href="https://doi.org/10.1515/jpm-2017-0048" target="_blank" rel="noopener">Transfusion-associated necrotizing enterocolitis re-evaluated: a systematic review and meta-analysis.</a><br><span>Rai S, Sidhu A, <strong>Krishnan RJ</strong>. <em>J Perinat Med.</em> 2018;46(6):665–676.</span></li>
-          <li><a href="https://doi.org/10.1111/ctr.13339" target="_blank" rel="noopener">Cytomegalovirus infection and graft rejection as risk factors for pneumocystis pneumonia in solid organ transplant recipients: a systematic review and meta-analysis.</a><br><span>Hosseini-Moghaddam SM, <strong>Krishnan RJ</strong>, et al. <em>Clin Transplant.</em> 2018;32(8):e13339.</span></li>
-          <li><a href="https://doi.org/10.1161/JAHA.117.008202" target="_blank" rel="noopener">Sex-specific associations between alcohol consumption and incidence of hypertension: a systematic review and meta-analysis of cohort studies.</a><br><span>Roerecke M, et al., <strong>Krishnan RJ</strong>, et al. <em>J Am Heart Assoc.</em> 2018;7(13):e008202.</span></li>
-          <li><a href="https://epe.lac-bac.gc.ca/100/201/300/cdn_jrn_of_rural_medicine/pdf/2018/Full-23-3-Issue.pdf?nodisclaimer=1" target="_blank" rel="noopener">Mentoring needs of distributed medical education faculty at one Canadian medical school: a mixed method study.</a><br><span><strong>Krishnan RJ</strong>, Uruthiramoorthy L, et al. <em>Can J Rural Med.</em> 2018;23(3):68–75.</span></li>
-          <li><a href="https://doi.org/10.1186/s40463-017-0241-z" target="_blank" rel="noopener">The effectiveness of topical colloidal silver in recalcitrant chronic rhinosinusitis: a randomized crossover control trial.</a><br><span>Scott JR, <strong>Krishnan RJ</strong>, et al. <em>J Otolaryngol Head Neck Surg.</em> 2017;46(1):64.</span></li>
-          <li><a href="https://doi.org/10.1097/CCM.0000000000002873" target="_blank" rel="noopener">Should transfusion trigger thresholds differ for critical care versus perioperative patients? A meta-analysis of randomized trials.</a><br><span>Chong MA, <strong>Krishnan RJ</strong>, et al. <em>Crit Care Med.</em> 2018;46(2):252–263.</span></li>
-          <li><a href="https://doi.org/10.1097/MD.0000000000007255" target="_blank" rel="noopener">Echocardiogram changes following parathyroidectomy for primary hyperparathyroidism: a systematic review and meta-analysis.</a><br><span>Best CAE, <strong>Krishnan RJ</strong>, et al. <em>Medicine (Baltimore).</em> 2017;96(43):e7255.</span></li>
-          <li><a href="https://doi.org/10.1136/bmjopen-2015-009257" target="_blank" rel="noopener">Comparing sutures versus staples for skin closure after orthopedic surgery: systematic review and meta-analysis.</a><br><span><strong>Krishnan RJ</strong>, MacNeil SD, Malvankar-Mehta MS. <em>BMJ Open.</em> 2016;6(1):e009257.</span></li>
-        </ol>
-
-        <div class="thesis">
-          <p class="meta">Master’s thesis</p>
-          <h3><a href="https://ir.lib.uwo.ca/etd/461" target="_blank" rel="noopener">Maternal healthcare utilization among Muslim mothers from India, Pakistan, and Bangladesh: is there equity?</a></h3>
-          <p>Electronic Thesis and Dissertation Repository · Western University · 2017</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="teaching" class="section">
-      <div class="wrap">
-        <p class="section-label">Academic Service</p>
-        <h2>Teaching & leadership</h2>
-        <div class="cards two">
-          <article class="card">
-            <h3>Teaching</h3>
-            <p><strong>Graduate Teaching Assistant</strong><br>Department of Epidemiology, Western University · 2015</p>
-          </article>
-          <article class="card">
-            <h3>Service & Leadership</h3>
-            <p><strong>JABSOM Admissions — Interviewer</strong> · 2021–2022</p>
-            <p><strong>Homeless Outreach Clinic — Student Healthcare Provider</strong> · 2020–2021</p>
-            <p><strong>JABSOM Pre-Med Mentorship Program — Mentor</strong> · 2020</p>
-            <p><strong>Teen Mentorship Academy — Volunteer</strong> · 2018–2019</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section id="cv" class="section cv-cta">
-      <div class="wrap narrow center">
-        <p class="section-label">Curriculum Vitae</p>
-        <h2>Full academic CV</h2>
-        <p>The complete CV includes publications, abstracts, presentations, invited talks, awards, teaching, service, certifications, and professional memberships.</p>
-        <a class="button primary" href="Rohin_Krishnan_CV.pdf" target="_blank" rel="noopener">Open PDF CV</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap footer-inner">
-      <p>© 2026 Rohin Jayaram Krishnan, MD MSc</p>
-      <a href="mailto:rohinkrishnanMD@gmail.com">rohinkrishnanMD@gmail.com</a>
     </div>
-  </footer>
+  </section>
+
+  <section id="research" class="content-section">
+    <div class="shell">
+      <p class="eyebrow">Research</p>
+      <h2 class="section-title">Research Experience</h2>
+      <div class="gold-rule short"></div>
+      <div class="cards">
+        <article>
+          <p class="date">2019–2022</p>
+          <h3>Syncope Research Group</h3>
+          <p>The Ottawa Hospital Research Institute, Department of Emergency Medicine</p>
+          <small>Supervisor: Dr. Venkatesh Thiruganasambandamoorthy</small>
+        </article>
+        <article>
+          <p class="date">2017–2022</p>
+          <h3>Center for Medical Evidence, Decision Integrity and Clinical Impact</h3>
+          <p>Department of Anesthesia and Perioperative Medicine, Western University</p>
+          <small>Supervisor: Dr. Janet Martin</small>
+        </article>
+        <article>
+          <p class="date">2016–2018</p>
+          <h3>Centre for Addiction and Mental Health</h3>
+          <p>Research on alcohol use and health outcomes</p>
+          <small>Supervisor: Dr. Michael Roerecke</small>
+        </article>
+        <article>
+          <p class="date">2016–2017</p>
+          <h3>Clinical Research Assistant</h3>
+          <p>Department of Otolaryngology and Head &amp; Neck Surgery, St. Joseph’s Hospital, London</p>
+          <small>Supervisor: Dr. Leigh Sowerby</small>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="content-section alt">
+    <div class="shell">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Scholarship</p>
+          <h2 class="section-title">Peer-Reviewed Publications</h2>
+          <div class="gold-rule short"></div>
+        </div>
+        <div class="pub-count">14 journal articles</div>
+      </div>
+
+      <ol class="pub-list">
+        <li><a href="https://doi.org/10.1016/j.amjsurg.2023.12.022" target="_blank" rel="noopener">Subtotal vs total cholecystectomy for difficult gallbladders: a systematic review and meta-analysis.</a><span>Koo SS, <strong>Krishnan RJ</strong>, et al. <em>Am J Surg.</em> 2024;229:145–150.</span></li>
+        <li><a href="https://doi.org/10.1186/s42836-021-00110-7" target="_blank" rel="noopener">Surgical site infection after wound closure with staples versus sutures in elective knee and hip arthroplasty: a systematic review and meta-analysis.</a><span>van de Kuit A, <strong>Krishnan RJ</strong>, et al. <em>Arthroplasty.</em> 2022;4(1):12.</span></li>
+        <li><a href="https://doi.org/10.1503/cmaj.191637" target="_blank" rel="noopener">Benefit of hospital admission for detecting serious adverse events among emergency department patients with syncope: a propensity-score-matched analysis of a multicentre prospective cohort.</a><span><strong>Krishnan RJ</strong>, Mukarram M, et al. <em>CMAJ.</em> 2020;192(41):E1198–E1205.</span></li>
+        <li><a href="https://doi.org/10.1097/CORR.0000000000000690" target="_blank" rel="noopener">Is the risk of infection lower with sutures than with staples for skin closure after orthopaedic surgery? A meta-analysis of randomized trials.</a><span><strong>Krishnan RJ</strong>, Crawford EJ, et al. <em>Clin Orthop Relat Res.</em> 2019;477(5):922–937.</span></li>
+        <li><a href="https://doi.org/10.1186/s12889-019-6945-4" target="_blank" rel="noopener">Do four or more antenatal care visits increase skilled birth attendant use and institutional delivery in Bangladesh? A propensity-score matched analysis.</a><span>Ryan BL, <strong>Krishnan RJ</strong>, et al. <em>BMC Public Health.</em> 2019;19(1):583.</span></li>
+        <li><a href="https://doi.org/10.1001/jamaoto.2018.4515" target="_blank" rel="noopener">Risk factors and outcomes of metastatic cutaneous squamous cell carcinoma in the head and neck region: systematic review and meta-analysis.</a><span>Sahovaler A, <strong>Krishnan RJ</strong>, et al. <em>JAMA Otolaryngol Head Neck Surg.</em> 2019;145(4):352–360.</span></li>
+        <li><a href="https://doi.org/10.1515/jpm-2017-0048" target="_blank" rel="noopener">Transfusion-associated necrotizing enterocolitis re-evaluated: a systematic review and meta-analysis.</a><span>Rai S, Sidhu A, <strong>Krishnan RJ</strong>. <em>J Perinat Med.</em> 2018;46(6):665–676.</span></li>
+        <li><a href="https://doi.org/10.1111/ctr.13339" target="_blank" rel="noopener">Cytomegalovirus infection and graft rejection as risk factors for pneumocystis pneumonia in solid organ transplant recipients: a systematic review and meta-analysis.</a><span>Hosseini-Moghaddam SM, <strong>Krishnan RJ</strong>, et al. <em>Clin Transplant.</em> 2018;32(8):e13339.</span></li>
+        <li><a href="https://doi.org/10.1161/JAHA.117.008202" target="_blank" rel="noopener">Sex-specific associations between alcohol consumption and incidence of hypertension: a systematic review and meta-analysis of cohort studies.</a><span>Roerecke M, et al., <strong>Krishnan RJ</strong>, et al. <em>J Am Heart Assoc.</em> 2018;7(13):e008202.</span></li>
+        <li><a href="https://epe.lac-bac.gc.ca/100/201/300/cdn_jrn_of_rural_medicine/pdf/2018/Full-23-3-Issue.pdf?nodisclaimer=1" target="_blank" rel="noopener">Mentoring needs of distributed medical education faculty at one Canadian medical school: a mixed method study.</a><span><strong>Krishnan RJ</strong>, Uruthiramoorthy L, et al. <em>Can J Rural Med.</em> 2018;23(3):68–75.</span></li>
+        <li><a href="https://doi.org/10.1186/s40463-017-0241-z" target="_blank" rel="noopener">The effectiveness of topical colloidal silver in recalcitrant chronic rhinosinusitis: a randomized crossover control trial.</a><span>Scott JR, <strong>Krishnan RJ</strong>, et al. <em>J Otolaryngol Head Neck Surg.</em> 2017;46(1):64.</span></li>
+        <li><a href="https://doi.org/10.1097/CCM.0000000000002873" target="_blank" rel="noopener">Should transfusion trigger thresholds differ for critical care versus perioperative patients? A meta-analysis of randomized trials.</a><span>Chong MA, <strong>Krishnan RJ</strong>, et al. <em>Crit Care Med.</em> 2018;46(2):252–263.</span></li>
+        <li><a href="https://doi.org/10.1097/MD.0000000000007255" target="_blank" rel="noopener">Echocardiogram changes following parathyroidectomy for primary hyperparathyroidism: a systematic review and meta-analysis.</a><span>Best CAE, <strong>Krishnan RJ</strong>, et al. <em>Medicine (Baltimore).</em> 2017;96(43):e7255.</span></li>
+        <li><a href="https://doi.org/10.1136/bmjopen-2015-009257" target="_blank" rel="noopener">Comparing sutures versus staples for skin closure after orthopedic surgery: systematic review and meta-analysis.</a><span><strong>Krishnan RJ</strong>, MacNeil SD, Malvankar-Mehta MS. <em>BMJ Open.</em> 2016;6(1):e009257.</span></li>
+      </ol>
+
+      <div class="thesis">
+        <p class="eyebrow">Master’s Thesis</p>
+        <a href="https://ir.lib.uwo.ca/etd/461" target="_blank" rel="noopener">Maternal healthcare utilization among Muslim mothers from India, Pakistan, and Bangladesh: is there equity?</a>
+        <span>Western University · Electronic Thesis and Dissertation Repository · 2017</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="presentations" class="content-section">
+    <div class="shell">
+      <p class="eyebrow">Presentations</p>
+      <h2 class="section-title">Selected Presentations</h2>
+      <div class="gold-rule short"></div>
+      <div class="timeline-list">
+        <div><b>2020</b><p>Role of hospitalization for detection of serious adverse events among emergency department patients with syncope. CAEP, Ottawa.</p></div>
+        <div><b>2019</b><p>Benefit of hospitalisation for emergency department patients with syncope. CANet HQP Symposium, Montreal.</p></div>
+        <div><b>2019</b><p>Benefit of hospitalisation for emergency department patients with syncope. Hawaii Health Workforce Summit, Honolulu.</p></div>
+        <div><b>2019</b><p>Is the risk of infection lower with sutures than with staples for skin closure after orthopaedic surgery? University of Hawaii Biomedical Sciences and Health Disparities Symposium.</p></div>
+        <div><b>2016</b><p>Antibiotics versus appendectomy for uncomplicated appendicitis: a global health perspective. CSEB Biannual Student Conference.</p></div>
+      </div>
+      <p class="muted">See the full CV for the complete presentation list.</p>
+    </div>
+  </section>
+
+  <section id="teaching" class="content-section alt">
+    <div class="shell">
+      <p class="eyebrow">Academic Service</p>
+      <h2 class="section-title">Teaching &amp; Leadership</h2>
+      <div class="gold-rule short"></div>
+      <div class="cards">
+        <article><h3>Graduate Teaching Assistant</h3><p>Department of Epidemiology, Western University</p><small>2015</small></article>
+        <article><h3>JABSOM Admissions — Interviewer</h3><p>John A. Burns School of Medicine</p><small>2021–2022</small></article>
+        <article><h3>Homeless Outreach Clinic</h3><p>Student Healthcare Provider</p><small>2020–2021</small></article>
+        <article><h3>Mentorship</h3><p>JABSOM Pre-Med Mentorship Program and Teen Mentorship Academy</p><small>2018–2020</small></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="cv" class="content-section cv-section">
+    <div class="shell center">
+      <p class="eyebrow">Curriculum Vitae</p>
+      <h2 class="section-title">Full Academic CV</h2>
+      <p>View the complete record of training, research, publications, presentations, invited talks, awards, teaching, service, certifications, and memberships.</p>
+      <a class="btn btn-gold" href="Rohin_Krishnan_CV.pdf" target="_blank" rel="noopener">Open PDF CV</a>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="shell center">
+      <p class="eyebrow">Contact</p>
+      <h2 class="section-title">Get in Touch</h2>
+      <a class="email-large" href="mailto:rohinkrishnanMD@gmail.com">rohinkrishnanMD@gmail.com</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="shell">© 2026 Rohin Jayaram Krishnan, MD, MSc</div>
+</footer>
+
+<script>
+document.querySelectorAll('nav a').forEach(a => a.addEventListener('click', () => document.body.classList.remove('menu-open')));
+</script>
 </body>
 </html>
