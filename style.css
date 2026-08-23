@@ -12,32 +12,43 @@
 @media(max-width:600px){.shell{width:min(100% - 28px,1380px)}.wordmark{font-size:.98rem}.hero h1{font-size:2.55rem}.hero h2{font-size:1.42rem}.institution{font-size:1.25rem}.portrait-wrap{height:365px}.actions{display:grid}.btn{width:100%}.training-grid{grid-template-columns:1fr}.training-card{min-height:150px;border-right:0!important;border-bottom:1px solid rgba(255,255,255,.16)!important;padding:23px 20px}.training-card:last-child{border-bottom:0!important}.training-card span{padding-top:15px}.cards,.cards.compact{grid-template-columns:1fr}.cards article{min-height:0}.pubs article{grid-template-columns:1fr;gap:4px}.section h2,.contact h2{font-size:2.08rem}.section{padding:62px 0}.two-col{gap:22px}}
 /* LinkedIn icon */
 
+/* LinkedIn icon - fixed size */
+
 .social-links {
-  margin-top: 18px;
+  margin-top: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.linkedin {
-  display: flex;
+a.linkedin {
+  display: inline-flex !important;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
+  width: 40px !important;
+  height: 40px !important;
+  min-width: 40px !important;
+  max-width: 40px !important;
+  padding: 0 !important;
   color: #ffffff;
-  border: 1px solid rgba(255, 255, 255, 0.35);
-  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.35);
+  border-radius: 5px;
   text-decoration: none;
-  transition: all 0.2s ease;
+  overflow: hidden;
 }
 
-.linkedin svg {
-  width: 23px;
-  height: 23px;
+a.linkedin svg {
+  display: block !important;
+  width: 21px !important;
+  height: 21px !important;
+  min-width: 21px !important;
+  max-width: 21px !important;
+  min-height: 21px !important;
+  max-height: 21px !important;
+  flex: none !important;
 }
 
-.linkedin:hover {
+a.linkedin:hover {
   color: #d99a3a;
   border-color: #d99a3a;
   transform: translateY(-2px);
