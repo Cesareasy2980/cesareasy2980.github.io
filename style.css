@@ -53,3 +53,21 @@ a.linkedin:hover {
   border-color: #d99a3a;
   transform: translateY(-2px);
 }
+
+/* Final smaller LinkedIn size */
+
+a.linkedin {
+  width: 30px !important;
+  height: 30px !important;
+  min-width: 30px !important;
+  max-width: 30px !important;
+}
+
+a.linkedin svg {
+  width: 15px !important;
+  height: 15px !important;
+  min-width: 15px !important;
+  max-width: 15px !important;
+  min-height: 15px !important;
+  max-height: 15px !important;
+}
